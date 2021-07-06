@@ -7,6 +7,9 @@ baseurl:             ''
 paginate:            5
 permalink:           pretty
 
+mardown: kramdown
+mathjax: true
+
 # About/contact
 author:
   name:              Mark Otto
