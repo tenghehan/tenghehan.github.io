@@ -2,8 +2,10 @@
 layout: default
 title: 其他作品1
 ---
-# Work 1
+# SMOVE
 
 {% include smove.html %}
 
-## Section 1
+# Fake Calculator
+
+{% include calculator.html %}

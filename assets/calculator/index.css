@@ -1,0 +1,36 @@
+.calculator {
+	padding:0;
+	margin:0;
+	border:0;
+	font-family:arial;
+	font-size:12px;
+}
+
+#calculator_main{
+
+	width: 400px;
+	height: 670px;
+	margin:0 auto;
+	position: relative;
+}
+
+.calculator.page{
+	width: 400px;
+
+	height: 670px;
+
+	margin: 0px auto;
+	margin-top: 10px;
+}
+#canvas_up, #canvas_bottom{
+
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#canvas_up{
+	z-index: 1;
+}
+#canvas_bottom{
+	z-index: 0;
+}
